@@ -1,3 +1,5 @@
+const require = require('bootstrap');
+
 $(document).ready(function() {
   function createEl(htmlString, attrs, ...children) {
     if (typeof htmlString !== "string") {
